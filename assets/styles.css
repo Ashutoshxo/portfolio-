@@ -134,3 +134,7 @@ body {
     height: 100%;
     border-radius: 5px;
   }
+  .old-english-font {
+    font-family: 'Old English Text MT', cursive;
+    color: #a98914;
+}
