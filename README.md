@@ -12,7 +12,7 @@ The portfolio features the following sections:
 - **Projects**: A list of personal projects developed by Ashutosh with links to their respective GitHub repositories.
 - **Contact**: A contact section with an email link to get in touch.
 
-## Technologies Used
+## Technologies know to use 
 
 - **HTML**
 - **CSS**
