@@ -1,29 +1,28 @@
-
 body {
   padding-top: 80px;
   font-family: 'Roboto', sans-serif;
-  background-color: #f4f7fc;
+  background-color: #000000; /* Black background */
 }
 
 .navbar {
-  background-color: #343a40 !important;
+  background-color: #000000 !important; /* Black navbar */
 }
 
 .navbar-nav .nav-link {
-  color: #d1d1d1 !important;
+  color: #FFD700 !important; /* Golden text */
   font-weight: 500;
 }
 
 .navbar-nav .nav-link.active {
-  color: #007bff !important;
+  color: #FFD700 !important; /* Golden active link */
 }
 
 .navbar-nav .nav-link:hover {
-  color: #0056b3 !important;
+  color: #FFD700 !important; /* Golden hover link */
 }
 
 .hero {
-  background: linear-gradient(135deg, #007bff, #0069d9);
+  background: linear-gradient(135deg, #FFD700, #000000); /* Golden to black gradient */
   color: #ffffff;
   padding: 80px 0;
 }
@@ -32,6 +31,7 @@ body {
   font-size: 3.5rem;
   font-weight: 700;
   letter-spacing: 2px;
+  color: #FFD700; /* Golden text */
 }
 
 .hero p {
@@ -40,7 +40,7 @@ body {
 }
 
 .card {
-  border: none;
+  border: 1px solid #FFD700; /* Golden border */
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
@@ -52,15 +52,17 @@ body {
 
 .card-body {
   padding: 1.5rem;
+  background-color: #333; /* Dark background for card */
+  color: #FFD700; /* Golden text inside card */
 }
 
 .progress-bar {
-  background-color: #28a745;
+  background-color: #FFD700; /* Golden progress bar */
 }
 
 .footer {
-  background-color: #343a40;
-  color: #d1d1d1;
+  background-color: #000000; /* Black footer */
+  color: #FFD700; /* Golden footer text */
 }
 
 .footer p {
@@ -68,13 +70,14 @@ body {
 }
 
 .btn-primary {
-  background-color: #0069d9;
-  border-color: #0069d9;
+  background-color: #FFD700; /* Golden button */
+  border-color: #FFD700;
 }
 
 .btn-primary:hover {
-  background-color: #0056b3;
-  border-color: #0056b3;
+  background-color: #000000; /* Black button on hover */
+  border-color: #000000;
+  color: #FFD700; /* Golden text on hover */
 }
 
 .container {
@@ -90,51 +93,54 @@ body {
     font-size: 1rem;
   }
 }
- /* General section styling */
- #skills {
-    background-color: #f7f7f7;
-  }
 
-  .skill-item {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    transition: all 0.3s ease-in-out;
-  }
+/* General section styling */
+#skills {
+  background-color: #333; /* Dark background for skills section */
+}
 
-  .skill-item:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
-  }
+.skill-item {
+  background-color: #222; /* Dark background for skill items */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
 
-  .skill-title {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    color: #333;
-    margin-bottom: 15px;
-  }
+.skill-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
 
-  .skill-title i {
-    font-size: 1.5em;
-    margin-right: 8px;
-    color: #007bff;
-  }
+.skill-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: #FFD700; /* Golden title */
+  margin-bottom: 15px;
+}
 
-  .progress-container {
-    position: relative;
-    height: 10px;
-    background-color: #e0e0e0;
-    border-radius: 5px;
-    overflow: hidden;
-  }
+.skill-title i {
+  font-size: 1.5em;
+  margin-right: 8px;
+  color: #FFD700; /* Golden icons */
+}
 
-  .progress-bar {
-    height: 100%;
-    border-radius: 5px;
-  }
-  .old-english-font {
-    font-family: 'Old English Text MT', cursive;
-    color: #a98914;
+.progress-container {
+  position: relative;
+  height: 10px;
+  background-color: #333; /* Dark background for progress */
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 100%;
+  border-radius: 5px;
+  background-color: #FFD700; /* Golden progress bar */
+}
+
+.old-english-font {
+  font-family: 'Old English Text MT', cursive;
+  color: #FFD700; /* Golden old english font */
 }
