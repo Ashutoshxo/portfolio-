@@ -8,42 +8,37 @@
   <link rel="stylesheet" href="assets/styles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
-<body data-bs-spy="scroll"  >
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" >
-    <div class="container" >
-        <a class="navbar-brand" href="#" >
-            <img src="assets/images/profile.jpg" alt="Profile Picture" class="img-fluid rounded-circle" style="max-width: 30px; margin-right: 5px;" >
-            Ashutosh S Gautam
-          </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+<body data-bs-spy="scroll">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #111;">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="assets/images/profile.jpg" alt="Profile Picture" class="img-fluid rounded-circle" style="max-width: 30px; margin-right: 5px;">
+        Ashutosh S Gautam
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link active" href="#about">About Me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#skills">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#projects">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
+          <li class="nav-item"><a class="nav-link active" href="#about">About Me</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <header class="hero text-center" id="hero" style="background: linear-gradient(135deg, #0f0d0c, #feb47b); color: white;">
+  <!-- Hero Section -->
+  <header class="hero text-center" id="hero" style="background: linear-gradient(135deg, #0f0d0c, #feb47b); color: white; padding: 120px 0;">
     <div class="container">
-      <h1 >Hello, I'm Ashutosh S Gautam</h1>
-      <p class="lead">I am a dedicated Full Stack Python Developer with a strong background in technology. I have completed my Bachelor of Technology (B.Tech) in Information Technology</p>
+      <h1>Hello, I'm Ashutosh S Gautam</h1>
+      <p class="lead">I am a dedicated Full Stack Python Developer with a strong background in technology. I have completed my Bachelor of Technology (B.Tech) in Information Technology.</p>
     </div>
   </header>
 
+  <!-- About Section -->
   <section id="about" class="py-5 bg-white">
     <div class="container">
       <h2 class="text-center mb-4 old-english-font">About Me</h2>
@@ -53,125 +48,186 @@
         </div>
         <div class="col-md-8">
           <p>I'm Ashutosh S Gautam, a <strong>Full Stack Python Developer</strong> passionate about creating scalable web applications. With a <strong>B.Tech in Information Technology</strong>, I've honed skills in various technologies like <strong>Python</strong>, <strong>React</strong>, <strong>CSS</strong>, <strong>HTML</strong>, <strong>Angular</strong>, <strong>Bootstrap</strong>, <strong>Django</strong>, and <strong>MySQL</strong>. My goal is to develop innovative and user-friendly web solutions while keeping up with the latest trends in technology.</p>
-          
           <a href="assets/images/Ashutosh Resume.pdf" class="btn btn-primary" download="Ashutosh_S_Gautam_Resume">Download Resume</a>
         </div>
       </div>
     </div>
   </section>
-  
-<section id="skills" class="py-5 bg-dark">
+
+ <section id="skills" class="py-5 bg-dark text-white">
   <div class="container">
     <h1 class="text-center mb-4 old-english-font">My Skills</h1>
-    <div class="row">
-      <div class="col-md-4 mb-4">
-        <div class="skill-item">
-          <h5 class="skill-title"><i class="fas fa-code"></i> HTML</h5>
-        </div>
-      </div>
+    
+    <!-- 🔹 Frontend Skills -->
+    <h4 class="text-center text-warning mb-4">Frontend Development</h4>
+    <div class="row text-center mb-5">
+      <div class="col-md-3 mb-4"><i class="fas fa-code fa-2x"></i><h5>HTML</h5></div>
+      <div class="col-md-3 mb-4"><i class="fas fa-paint-brush fa-2x"></i><h5>CSS</h5></div>
+      <div class="col-md-3 mb-4"><i class="fab fa-js-square fa-2x"></i><h5>JavaScript (ES6+)</h5></div>
+      <div class="col-md-3 mb-4"><i class="fab fa-react fa-2x"></i><h5>React</h5></div>
+      <div class="col-md-3 mb-4"><i class="fab fa-bootstrap fa-2x"></i><h5>Bootstrap</h5></div>
+      <div class="col-md-3 mb-4"><i class="fab fa-angular fa-2x"></i><h5>Angular</h5></div>
+      <div class="col-md-3 mb-4"><i class="fab fa-css3-alt fa-2x"></i><h5>Tailwind CSS</h5></div>
+      <div class="col-md-3 mb-4"><i class="fab fa-android fa-2x"></i><h5>Flutter (Dart)</h5></div>
+      <div class="col-md-3 mb-4"><i class="fas fa-mobile-alt fa-2x"></i><h5>Responsive UI Design</h5></div>
+    </div>
 
-      <div class="col-md-4 mb-4">
-        <div class="skill-item">
-          <h5 class="skill-title"><i class="fas fa-paint-brush"></i> CSS</h5>
-        </div>
-      </div>
+    <!-- 🔹 Backend Skills -->
+    <h4 class="text-center text-warning mb-4">Backend Development</h4>
+    <div class="row text-center mb-5">
+      <div class="col-md-3 mb-4"><i class="fab fa-python fa-2x"></i><h5>Python</h5></div>
+      <div class="col-md-3 mb-4"><i class="fas fa-server fa-2x"></i><h5>Django</h5></div>
+      <div class="col-md-3 mb-4"><i class="fas fa-link fa-2x"></i><h5>Django REST Framework</h5></div>
+      <div class="col-md-3 mb-4"><i class="fas fa-shield-alt fa-2x"></i><h5>JWT / Session Auth</h5></div>
+      <div class="col-md-3 mb-4"><i class="fas fa-cloud fa-2x"></i><h5>RESTful API Development</h5></div>
+      <div class="col-md-3 mb-4"><i class="fab fa-windows fa-2x"></i><h5>ASP.NET Core (C#)</h5></div>
+      <div class="col-md-3 mb-4"><i class="fas fa-layer-group fa-2x"></i><h5>MVC Architecture</h5></div>
+      <div class="col-md-3 mb-4"><i class="fas fa-database fa-2x"></i><h5>Entity Framework</h5></div>
+    </div>
 
-      <div class="col-md-4 mb-4">
-        <div class="skill-item">
-          <h5 class="skill-title"><i class="fab fa-js-square"></i> JavaScript</h5>
-        </div>
-      </div>
+    <!-- 🔹 Database Skills -->
+    <h4 class="text-center text-warning mb-4">Database Management</h4>
+    <div class="row text-center mb-5">
+      <div class="col-md-3 mb-4"><i class="fas fa-database fa-2x"></i><h5>MySQL</h5></div>
+      <div class="col-md-3 mb-4"><i class="fas fa-database fa-2x"></i><h5>MongoDB</h5></div>
+      <div class="col-md-3 mb-4"><i class="fas fa-server fa-2x"></i><h5>SQL Server</h5></div>
+      <div class="col-md-3 mb-4"><i class="fas fa-project-diagram fa-2x"></i><h5>RDBMS Concepts</h5></div>
+    </div>
 
-      <div class="col-md-4 mb-4">
-        <div class="skill-item">
-          <h5 class="skill-title"><i class="fab fa-python"></i> Python</h5>
-        </div>
-      </div>
+    <!-- 🔹 Deployment & DevOps -->
+    <h4 class="text-center text-warning mb-4">Deployment & DevOps</h4>
+    <div class="row text-center mb-5">
+      <div class="col-md-3 mb-4"><i class="fas fa-globe fa-2x"></i><h5>Render (Django Hosting)</h5></div>
+      <div class="col-md-3 mb-4"><i class="fas fa-cloud-upload-alt fa-2x"></i><h5>Vercel (Frontend)</h5></div>
+      <div class="col-md-3 mb-4"><i class="fas fa-file-code fa-2x"></i><h5>.env Configuration</h5></div>
+      <div class="col-md-3 mb-4"><i class="fab fa-git-alt fa-2x"></i><h5>Git & GitHub</h5></div>
+      <div class="col-md-3 mb-4"><i class="fas fa-sync-alt fa-2x"></i><h5>CI/CD Basics</h5></div>
+      <div class="col-md-3 mb-4"><i class="fas fa-cogs fa-2x"></i><h5>API Integration</h5></div>
+    </div>
 
-      <div class="col-md-4 mb-4">
-        <div class="skill-item">
-          <h5 class="skill-title"><i class="fab fa-react"></i> React</h5>
-        </div>
-      </div>
-
-      <div class="col-md-4 mb-4">
-        <div class="skill-item">
-          <h5 class="skill-title"><i class="fas fa-database"></i> MySQL</h5>
-        </div>
-      </div>
-
-      <div class="col-md-4 mb-4">
-        <div class="skill-item">
-          <h5 class="skill-title"><i class="fab fa-angular"></i> Angular</h5>
-        </div>
-      </div>
-
-      <div class="col-md-4 mb-4">
-        <div class="skill-item">
-          <h5 class="skill-title"><i class="fab fa-bootstrap"></i> Bootstrap</h5>
-        </div>
-      </div>
-
-      <div class="col-md-4 mb-4">
-        <div class="skill-item">
-          <h5 class="skill-title"><i class="fab fa-python"></i> Django</h5>
-        </div>
-      </div>
+    <!-- 🔹 Tools -->
+    <h4 class="text-center text-warning mb-4">Tools & Platforms</h4>
+    <div class="row text-center">
+      <div class="col-md-3 mb-4"><i class="fas fa-vial fa-2x"></i><h5>Postman</h5></div>
+      <div class="col-md-3 mb-4"><i class="fas fa-code fa-2x"></i><h5>VS Code</h5></div>
+      <div class="col-md-3 mb-4"><i class="fab fa-wordpress fa-2x"></i><h5>WordPress</h5></div>
+      <div class="col-md-3 mb-4"><i class="fab fa-aws fa-2x"></i><h5>AWS (Basics)</h5></div>
+      <div class="col-md-3 mb-4"><i class="fas fa-file-alt fa-2x"></i><h5>JSON / RESTful Architecture</h5></div>
+      <div class="col-md-3 mb-4"><i class="fab fa-android fa-2x"></i><h5>Android Studio</h5></div>
     </div>
   </div>
 </section>
 
 
   <section id="projects" class="py-5 bg-white">
-    <div class="container">
-      <h1 class="text-center mb-4 old-english-font">Projects</h1>
-      <div class="row">
-        <div class="col-md-4 mb-3">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Ganymede</h5>
-                <p class="card-text">A Python-based music player that allows users to play and manage their music library, with features such as playlist creation, track search, and playback controls.</p>
-                <a href="https://github.com/Ashutoshxo/Ganymede-" class="btn btn-primary" target="_blank" rel="noopener noreferrer">View Project</a>
-              </div>
-            </div>
-          </div>
-        <div class="col-md-4 mb-3">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Python Bank Application</h5>
-                <p class="card-text">A Python-based bank application that simulates basic banking operations, such as balance inquiry, deposit, withdrawal, and transfer, with a user-friendly CLI interface.</p>
-                <a href="https://github.com/Ashutoshxo/python-Bank-" class="btn btn-primary" target="_blank" rel="noopener noreferrer">View Project</a>
-              </div>
-            </div>
-          </div>
+  <div class="container">
+    <h1 class="text-center mb-4 old-english-font">Projects</h1>
 
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">VIBGYOR HRM System</h5>
-                <p class="card-text">A Python-based Human Resource Management system designed to manage employee data, attendance, leave requests, and other HR functions efficiently.</p>
-                <a href="https://github.com/Ashutoshxo/VIBGYOR-" class="btn btn-primary" target="_blank" rel="noopener noreferrer">View Project</a>
-              </div>
-            </div>
+    <div class="row">
+
+      <!-- Ganymede - Music Web Application -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title text-primary">🎵 Ganymede - Music Web Application</h5>
+            <p class="card-text">
+              A full-stack Django-based music streaming app like Spotify — includes user authentication,
+              playlist management, and artist following. Built with Django ORM for efficient model handling.
+            </p>
+            <a href="https://github.com/Ashutoshxo/Ganymede-" target="_blank" class="btn btn-primary">View Project</a>
           </div>
+        </div>
       </div>
-    </div>
-  </section>
 
+      <!-- Full Stack Todo Application -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title text-primary">✅ Full-Stack Todo Application</h5>
+            <p class="card-text">
+              A modern Todo app built using <strong>Flutter</strong> (frontend) and <strong>Django REST Framework</strong> (backend).  
+              Supports CRUD operations, filters, and real-time API updates with elegant UI transitions.
+            </p>
+            <a href="https://github.com/Ashutoshxo/frontend" target="_blank" class="btn btn-primary">Frontend (Flutter)</a>
+            <a href="https://github.com/Ashutoshxo/backend" target="_blank" class="btn btn-outline-primary mt-2">Backend (Django)</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Library of Book -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title text-primary">📚 Library of Book</h5>
+            <p class="card-text">
+              A full-stack web application built with <strong>React (Vite)</strong> and <strong>.NET Core API</strong>.
+              Features include secure authentication, responsive design, and efficient book management.
+            </p>
+            <a href="https://github.com/Ashutoshxo/library-of-book" target="_blank" class="btn btn-primary">View Project</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bank Management System -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title text-primary">🏦 Bank Management System</h5>
+            <p class="card-text">
+              A Python-based CLI banking system that allows users to create accounts, deposit, withdraw,
+              and check balances. Secure transactions and interactive user experience included.
+            </p>
+            <a href="https://github.com/Ashutoshxo/python-Bank-" target="_blank" class="btn btn-primary">View Project</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2D Space Shooter Game -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title text-primary">🚀 2D Space Shooter Game</h5>
+            <p class="card-text">
+              A fun 2D space shooter game created using <strong>Python & Pygame</strong>.
+              Includes player movement, shooting mechanics, enemy collisions, and score tracking.
+            </p>
+            <a href="https://github.com/Ashutoshxo/spaceshoot" target="_blank" class="btn btn-primary">View Project</a>
+          </div>
+        </div>
+      </div>
+
+      
+
+    </div>
+  </div>
+</section>
+
+
+  <!-- Contact Form -->
   <section id="contact" class="py-5" style="background: #111; color: #fff; text-align: center;">
     <div class="container">
       <h2 class="mb-4" style="font-size: 2.5rem; font-weight: 700; letter-spacing: 2px; color: #FFD700;">Get in Touch</h2>
-      <div class="contact-info" style="font-size: 1.2rem; margin-bottom: 20px;">
-        <p><strong style="font-size: 1.5rem; color: #FFD700;">Ashutosh S Gautam</strong></p>
-        <p>Email: <a href="mailto:ashutoshxoxo@gmail.com" style="color: #FFD700; text-decoration: none; font-weight: 600; transition: 0.3s ease;">ashutoshxoxo@gmail.com</a></p>
-      </div>
-      <div class="cta" style="margin-top: 30px;">
-        <a href="mailto:ashutoshxoxo@gmail.com" class="btn" style="background: #FFD700; color: #fff; padding: 12px 30px; font-size: 1.1rem; border-radius: 30px; text-decoration: none; transition: background 0.3s ease;">
-          <i class="fa fa-envelope" style="margin-right: 10px;"></i> Send an Email
-        </a>
-      </div>
+      <form id="contactForm" class="mx-auto" style="max-width: 600px; text-align: left;">
+        <div class="mb-3">
+          <label for="name" class="form-label" style="color: #FFD700;">Full Name</label>
+          <input type="text" id="name" class="form-control" placeholder="Enter your name">
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label" style="color: #FFD700;">Email</label>
+          <input type="email" id="email" class="form-control" placeholder="Enter your email">
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label" style="color: #FFD700;">Message</label>
+          <textarea id="message" class="form-control" rows="4" placeholder="Write your message"></textarea>
+        </div>
+        <button type="submit" class="btn" style="background: #FFD700; color: #fff; padding: 12px 30px; font-size: 1.1rem; border-radius: 30px;">
+          <i class="fa fa-paper-plane"></i> Send Message
+        </button>
+      </form>
     </div>
   </section>
+
+
   <section style="display: flex; justify-content: space-between; align-items: center; gap: 20px; padding: 20px; flex-wrap: wrap;">
     <img src="assets/images/Master of full stack python developer.jpg" alt="corewebdesign" class="responsive-img">
     <img src="assets/images/corewebdesign.jpg" alt="corewebdesign" class="responsive-img">
@@ -180,7 +236,7 @@
     <img src="assets/images/iBM.png" alt="MySQL" class="responsive-img">
     <img src="assets/images/sql certificate.jpg" alt="MySQL" class="responsive-img">
   </section>
-  
+
   <style>
     .responsive-img {
       border-radius: 10px;
@@ -189,31 +245,16 @@
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
       transition: transform 0.3s ease-in-out;
     }
-  
-   
-    @media (max-width: 768px) {
-      section {
-        justify-content: center; 
-      }
-      .responsive-img {
-        max-width: 80%; 
-        margin-bottom: 20px; 
-      }
+    .responsive-img:hover {
+      transform: scale(1.05);
     }
-  
-    @media (max-width: 480px) {
-      .responsive-img {
-        max-width: 100%; 
-        margin-bottom: 15px; 
-      }
+    @media (max-width: 768px) {
+      section { justify-content: center; }
+      .responsive-img { max-width: 80%; margin-bottom: 20px; }
     }
   </style>
-  
 
-
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
-
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
